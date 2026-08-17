@@ -240,6 +240,7 @@ async function getGPS(){
    e=>reject(e),
    {enableHighAccuracy:true,timeout:15000,maximumAge:300000}
   );
+ });
 }
 
 async function getIPLocation(){
